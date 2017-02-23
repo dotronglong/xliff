@@ -1,0 +1,27 @@
+{
+    "name": "dotronglong/xliff",
+    "description": "PHP Xliff Reader and Writer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Long Do",
+            "email": "me@dotronglong.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Xliff\\": "src"
+        }
+    },
+    "require": {
+        "sabre/uri": "1.1.0",
+        "sabre/xml": "^1.5"
+    }
+}
