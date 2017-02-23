@@ -30,7 +30,7 @@ class Writer extends Xliff implements WriterInterface
         $writer = new XmlWriter();
         $writer->openMemory();
         $writer->setIndent(true);
-        $writer->startDocument($this->getVersion());
+        $writer->startDocument(static::XML_VERSION);
 
         switch ($this->getVersion()) {
             case '1.2':
