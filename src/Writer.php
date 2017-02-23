@@ -37,7 +37,7 @@ class Writer extends Xliff implements WriterInterface
                 $this->toVersionOne($writer);
                 break;
 
-            case '2':
+            case '2.0':
             default:
                 $this->toVersionTwo($writer);
                 break;

@@ -20,7 +20,7 @@ class Reader extends Xliff implements ReaderInterface
             case '1.2':
                 return $this->parseVersionOne();
 
-            case '2':
+            case '2.0':
             default:
                 return $this->parseVersionTwo();
         }
